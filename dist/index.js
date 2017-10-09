@@ -1,0 +1,2 @@
+function quchong1(n){var r=[n[0]];n.sort();for(var t=0;t<n.length;t++)n[t]!==r[r.length-1]&&r.push(n[t]);return r}
+function quchong2(n){for(var r=[],u=0;u<n.length;u++)-1===r.indexOf(n[u])&&r.push(n[u]);return r}
